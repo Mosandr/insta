@@ -1,0 +1,40 @@
+:root {
+  --accent-color: #2196f3;
+  --light-theme-color: #afb1b8;
+  --dark-theme-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  width: 88px;
+  height: 88px;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+.instagram {
+  align-self: center;
+  fill: var(--light-theme-color);
+}
+
+.circle {
+  fill: var(--light-theme-color);
+  position: absolute;
+  left: 52px;
+  top: 30px;
+}
+
+.container:hover .circle {
+  fill: black;
+}
+
+.container:hover .instagram {
+  fill: var(--dark-theme-color);
+}
+
+.container:hover {
+  background: var(--accent-color);
+}
