@@ -27,11 +27,19 @@
   top: 30px;
 }
 
+.circle-second {
+  fill: var(--light-theme-color);
+  position: absolute;
+  left: 54.1px;
+  top: 32.5px;
+}
+
 .container:hover .circle {
   fill: black;
 }
 
-.container:hover .instagram {
+.container:hover .instagram,
+.container:hover .circle-second {
   fill: var(--dark-theme-color);
 }
 
